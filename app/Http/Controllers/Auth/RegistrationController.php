@@ -75,13 +75,15 @@ class RegistrationController extends Controller
         }
         if($request->ref)
         {
-            $check = User::whereSlug($request->ref)->first();
-            if($check) {
-                $check->update(
+
+            $userRef = User::whereSlug($request->ref)->first();
+            if($userRef) {
+                $userRef->update(
                   [
-                      'referral_count' => $check->referral_count += 1
+                      'referral_count' => $userRef->referral_count += 1
                   ]
                 );
+                $userRef->referrals()->attach($user->id);
             }
         }
         if($user)

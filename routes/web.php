@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('eczite-welcome' ,['title' => 'Home']);
 });
-Auth::routes();
+//Auth::routes();
 Route::get('/test', function () {
     return view('eczite.dashboard' ,['title' => 'Home','user' => \App\Models\User::all()->first()]);
 });

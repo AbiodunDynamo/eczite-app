@@ -7,6 +7,7 @@
     @stack('css')
 </head>
 <body>
+
 @include('sweetalert::alert')
 @stack('header')
 @yield('content')

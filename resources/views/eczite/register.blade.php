@@ -1,8 +1,8 @@
 @extends('eczite_layouts.app')
 
 @push('css')
-    <link rel="stylesheet" type="text/css" href="{{asset('eczite/regPage.css',true)}}"/>
-    <link rel="stylesheet" href="{{ asset('css/app.css',true) }}">
+    <link rel="stylesheet" type="text/css" href="/eczite/regPage.css"/>
+    <link rel="stylesheet" href="css/app.css'">
 @endpush
 
 @section('content')

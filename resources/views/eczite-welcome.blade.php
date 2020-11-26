@@ -1,7 +1,7 @@
 @extends('eczite_layouts.app')
 
 @push('css')
-    <link rel="stylesheet" href="{{asset('eczite/style.css', true)}}">
+    <link rel="stylesheet" href="eczite/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 @endpush
 @push('header')

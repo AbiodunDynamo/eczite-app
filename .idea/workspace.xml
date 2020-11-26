@@ -19,7 +19,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf52bffe-44d2-4752-b8c9-887881708610" name="Default Changelist" comment="" />
+    <list default="true" id="cf52bffe-44d2-4752-b8c9-887881708610" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ed7a838e-7abb-457e-b700-b4e80973c63f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ed7a838e-7abb-457e-b700-b4e80973c63f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/eczite-welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/eczite-welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/eczite/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/eczite/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/eczite_layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/eczite_layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/user-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/user-card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,7 +218,11 @@
       <workItem from="1605775227582" duration="602000" />
       <workItem from="1605971527001" duration="323000" />
       <workItem from="1606118410260" duration="609000" />
-      <workItem from="1606241066413" duration="9863000" />
+      <workItem from="1606241066413" duration="10964000" />
+      <workItem from="1606253050641" duration="598000" />
+      <workItem from="1606284995102" duration="3168000" />
+      <workItem from="1606327791210" duration="1794000" />
+      <workItem from="1606381714045" duration="13489000" />
     </task>
     <servers />
   </component>
@@ -216,11 +234,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="278" y="65" width="800" height="663" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604947980733">
@@ -243,9 +274,13 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="500" y="333" width="355" height="128" key="NewPhpFileDialog/0.28.1366.740@0.28.1366.740" timestamp="1604913720752" />
-    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup" timestamp="1606250858320">
+    <state x="583" y="289" width="338" height="216" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1606391989578">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1606250858320" />
+    <state x="583" y="289" width="338" height="216" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.28.1366.740@0.28.1366.740" timestamp="1606391989578" />
+    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup" timestamp="1606394998055">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1606394998055" />
   </component>
 </project>

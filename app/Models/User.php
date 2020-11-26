@@ -27,6 +27,11 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'phone_no',
+        'slug',
+        'driver',
+        'rides_no',
+        'referral_count'
     ];
 
     /**
@@ -58,4 +63,13 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    public function rides()
+    {
+        return $this->hasMany(Rides::class,'passenger','id');
+    }
+    public function referrals()
+    {
+        return $this->belongsToMany(User::class,'users_refer_users','referred_by','user_id');
+    }
 }
