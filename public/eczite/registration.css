@@ -201,6 +201,7 @@ select + label {
 .flip{
     margin-top: 20px;
     font-size: 14px;
+    cursor: pointer;
 }
 .flip:hover{
     color: darkolivegreen;
