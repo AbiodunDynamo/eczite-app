@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 //Auth::routes();
 Route::get('/test', function () {
-    return view('eczite.dashboard' ,['title' => 'Home','user' => \App\Models\User::all()->first()]);
+    return view('pages.register' ,['title' => 'Home','user' => \App\Models\User::all()->first()]);
 });
 Route::get('register', [\App\Http\Controllers\Auth\RegistrationController::class,'index'])->name('register');
 Route::post('register/user',[\App\Http\Controllers\Auth\RegistrationController::class ,'registerUsers'])->name('register.user');

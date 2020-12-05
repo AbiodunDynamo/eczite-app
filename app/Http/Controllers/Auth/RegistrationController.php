@@ -16,7 +16,7 @@ class RegistrationController extends Controller
     {
         $ref = $request->ref ?? null;
         $title =  'register';
-        return view('eczite.register' ,compact( 'ref','title'));
+        return view('pages.register' ,compact( 'ref','title'));
     }
     public function registerDriver(Request $request)
     {

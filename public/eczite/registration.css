@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    /*overflow-x:scroll;*/
+}
+body{
+
+}
+
+.main-content{
+    padding: 20px 0px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-content: center;
+    min-height: 100vh;
+    background-image: url("eczite-img-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contents-site{
+    align-self: center;
+    flex: 0 0 90%;
+    display: none;
+    margin-left: 5%;
+    transition: all 2s;
+}
+.contents-site:hover{
+    /*transform: scale3d(2);*/
+}
+.logo{
+    display: flex;
+    flex-flow: wrap row;
+    margin-top: -40px;
+    margin-bottom: 20px ;
+    justify-content: center;
+    align-content: center;
+}
+.contents-form{
+    flex: 0 0 90%;
+}
+.cards-container{
+    width: 100%;
+    height: 700px;
+}
+.cards{
+    position: relative;
+    display: flex;
+    flex-flow: wrap row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    transition: all 2s ease-in-out;
+    transform-style: preserve-3d;
+
+}
+.card_face{
+    position: absolute;
+    border-radius: 10px;
+    background: rgba(255,255,255,1);
+    padding: 20px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    min-height: 300px;
+    max-width: 500px;
+}
+.card_face_back{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+.card_face_front{
+    backface-visibility: hidden;
+}
+.label-content{
+    backface-visibility: hidden;
+}
+.is_flipped  .cards{
+    transform: rotateY(180deg);
+}
+
+.is_flipped .card_face_front{
+    pointer-events: none;
+}
+.registration-form{
+    width: 90%;
+}
+.reg-header{
+    padding-left: 10px;
+    border-left: 5px solid darkgreen;
+}
+.inputGroup{
+    margin-top: 20px;
+    position: relative;
+    height: 50px;
+    background: none;
+    overflow: hidden;
+}
+.inputGroup  input, .inputGroup select {
+    border : none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px ;
+    color: #777777;
+    background: none;
+}
+
+.inputGroup label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    pointer-events: none;
+    background: none;
+
+}
+.inputGroup label::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-bottom: 2px solid green;
+    left: 0%;
+    bottom: 0%;
+    transform: translate(-100%);
+    transition: all 0.5s ease;
+    background: none;
+}
+.inputGroup .label-content{
+    position: absolute;
+    color: black;
+    bottom: 5px ;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+select + label {
+    border-bottom: lawngreen;
+}
+.inputGroup input:focus + .label-name .label-content,
+.inputGroup input:valid + .label-name .label-content,
+.inputGroup select:focus + .label-name .label-content,
+.inputGroup select:valid + .label-name .label-content{
+    transform:  translateY(-150%);
+    font-size: 12px;
+    color: green;
+}
+
+.inputGroup input:focus + .label-name::after, .inputGroup input:valid + .label-name:after{
+    transform: translateX(0%);
+}
+.inputGroup input:focus + .label-name, .inputGroup input:valid + .label-name{
+    border-bottom: white;
+}
+.inputGroup-button{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-flow: column wrap;;
+    align-content: center;
+}
+.btn-signup{
+    outline: 1px solid white;
+    background: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.site-detail{
+    color: white;
+    font-size: 1rem;
+    line-height: 50px;
+    display: flex;
+    justify-content:center;
+}
+.site-detail:before{
+    content: "``";
+    opacity: 70%;
+    font-size: 2rem;
+}
+.site-detail:after{
+    content: "``";
+    opacity: 70%;
+    font-size: 2rem;
+}
+.site-heading{
+    font-size: 2.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.flip{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.flip:hover{
+    color: darkolivegreen;
+}
+@media screen and (min-width: 760px){
+    .contents-site{
+        flex: 0 0 42.5%;
+        display: block;
+    }
+    .contents-form{
+        flex: 0 0 42.5%;
+        align-self: end;
+    }
+}
+@media screen and (min-width: 1600px){
+    .contents-site{
+        flex: 0 0 42.5%;
+    }
+    .contents-form{
+        flex: 0 0 42.5%;
+        align-self: end;
+    }
+}
