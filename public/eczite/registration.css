@@ -186,18 +186,24 @@ select + label {
 }
 .site-detail:before{
     content: "``";
-    padding: 0px 10px;
     opacity: 70%;
-    font-size: 2rem;
+    font-size: 4rem;
+    padding: 0px 10px;
     font-family: 'Dancing Script', cursive;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+
 
 }
 .site-detail:after{
     content: "``";
     opacity: 70%;
-    font-size: 2rem;
-    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
     padding: 0px 10px;
+    font-family: 'Dancing Script', cursive;
     -moz-transform: scale(1, -1);
     -webkit-transform: scale(1, -1);
     -o-transform: scale(1, -1);
