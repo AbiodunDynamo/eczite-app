@@ -231,7 +231,6 @@ select + label {
 @media screen and (min-width: 860px){
     .contents-site{
         flex: 0 0 42.5%;
-        display: block;
     }
     .contents-form{
         flex: 0 0 42.5%;
@@ -241,6 +240,7 @@ select + label {
 @media screen and (min-width: 1600px){
     .contents-site{
         flex: 0 0 42.5%;
+        display: block;
     }
     .contents-form{
         flex: 0 0 42.5%;

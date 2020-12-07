@@ -248,8 +248,7 @@
     background: rgba(144,238,144,0.1); ;
 }
 
-
-@media screen and (min-width: 760px){
+@media screen and (min-width: 1600px){
     .body-logo{
         display: flex;
         flex-flow: row wrap;
@@ -282,7 +281,4 @@
     .item li {
         background: rgba(144,238,144,0.1);
     }
-}
-@media screen and (min-width: 1600px){
-
 }
