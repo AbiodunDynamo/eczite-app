@@ -22,7 +22,6 @@
     <list default="true" id="cf52bffe-44d2-4752-b8c9-887881708610" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/eczite/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/eczite/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/eczite/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/eczite/registration.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +217,8 @@
       <workItem from="1607178334238" duration="4242000" />
       <workItem from="1607278828184" duration="546000" />
       <workItem from="1607355459864" duration="646000" />
-      <workItem from="1607364752058" duration="3411000" />
+      <workItem from="1607364752058" duration="3748000" />
+      <workItem from="1607370521694" duration="32000" />
     </task>
     <servers />
   </component>
