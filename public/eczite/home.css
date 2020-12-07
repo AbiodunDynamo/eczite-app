@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes fade-in-item {
+    0% {
+        display: block;
+        opacity: 0;
+    }
+    30% {
+        display: block;
+        opacity: .5;
+    }
+    60% {
+        display: block;
+        opacity: .8;
+    }
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromTop {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes slideInFromBottom {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+    height: 80px;
+    background: #020000;
+}
+.logo {
+    flex: 0 0 90%;
+    margin-left: 5%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', "Times New Roman", serif;
+}
+
+.top-nav{
+    flex: 0 0 90%;
+    margin-left: 95%;
+    display: none;
+}
+.logo{
+    /*align-self: center;*/
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-btn{
+    padding:  20px;
+    outline: none;
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.nav-btn:hover {
+    color: lightgreen;
+    border-bottom: 5px solid lightgreen;
+}
+.content-1{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("eczite-img-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-text{
+    width: 50%;
+    font-size: 2rem;
+    flex-basis: 50%;
+    color: #f2ffe7;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: cursive;
+}
+.body-logo{
+    display: none;
+}
+.body-logo img{
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+}
+.content-signup{
+    flex-basis: 20%;
+}
+.content-1-head{
+    font-family:'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 2em;
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+.content-1-head + .quotes {
+    font-size: 0.9em;
+    animation: 2s ease 0s 1 slideInFromRight ;
+}
+.content-text  .body-logo{
+    animation: 3s ease 0s 1 slideInFromTop;
+}
+.content-1 .content-signup{
+    animation: 3s ease 0s 1 slideInFromBottom;
+}
+.t{
+    display: flex;
+    flex-flow: row wrap;
+}
+.body-btn{
+    border: white 2px solid;
+    color: white;
+    outline: none;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.body-btn:hover {
+    color: lightgreen;
+    border:  solid lightgreen;
+}
+.content-3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0px 5%;
+}
+.content-3 .part-one{
+    color: black;
+    height: 100%;
+    flex:0 0 100%;
+}
+
+.content-3 .part-one .content{
+    /*background: #777777;*/
+}
+.content-3 .part-two{
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    animation: 2s ease 0s 1 slideInFromRight;
+}
+.content-3 .part-one .content ol{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    list-style: none;
+}
+.HIW{
+    text-align: center;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    font-family: 'Dancing Script', "Times New Roman", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.content-3 .part-one .content li{
+    display: block;
+    margin: 20px 0px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.content-3 .part-two .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.content-3 .content{
+    width: 100%;
+    height: 100%;
+}
+.item li {
+    opacity: 0;
+}
+.item  .i01 {
+    animation: fade-in-item 2s .2s ease-out forwards;
+}
+.item  .i02 {
+    animation: fade-in-item 2s .6s ease-out forwards;
+}
+.item .i03 {
+    animation: fade-in-item 2s 1s ease-out forwards;
+}
+.item .i04 {
+    animation: fade-in-item 2s 1.4s ease-out forwards;
+}
+.eczite-section{
+    background: rgba(144,238,144,0.1); ;
+}
+
+
+@media screen and (min-width: 760px){
+    .body-logo{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .logo, .top-nav{
+        flex: 0 0 42.5%;
+        margin-left: 5%;
+        align-self: center;
+    }
+    .top-nav{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        height: 100%;
+    }
+    .logo{
+        display: flex;
+        justify-content: start;
+    }
+    .content-1{
+        flex: 0 0 100%;
+    }
+    .body-btn{
+        display: none;
+    }
+    .content-3 .part-two, .content-3 .part-one{
+        flex: 0 0 50%;
+    }
+    .item li {
+        background: rgba(144,238,144,0.1);
+    }
+}
+@media screen and (min-width: 1600px){
+
+}

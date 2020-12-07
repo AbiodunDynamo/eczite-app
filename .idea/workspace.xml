@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf52bffe-44d2-4752-b8c9-887881708610" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/eczite/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/eczite/registration.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/eczite/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/eczite/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,11 +177,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/eczite" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/eczite" />
     </key>
   </component>
   <component name="RunManager">
@@ -214,6 +218,9 @@
       <workItem from="1606401222992" duration="18000" />
       <workItem from="1607105727724" duration="1415000" />
       <workItem from="1607178334238" duration="4242000" />
+      <workItem from="1607278828184" duration="546000" />
+      <workItem from="1607355459864" duration="646000" />
+      <workItem from="1607364752058" duration="1136000" />
     </task>
     <servers />
   </component>
@@ -273,9 +280,9 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state width="450" height="340" key="javadoc.popup/0.28.1366.740@0.28.1366.740" timestamp="1607180534102" />
-    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup" timestamp="1607180396428">
+    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup" timestamp="1607365821080">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1607180396428" />
+    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1607365821080" />
   </component>
 </project>

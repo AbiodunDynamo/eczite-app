@@ -20,6 +20,9 @@
                         <h2 class="reg-header">Users Registration Form </h2>
                         <form class="registration-form" action="{{route('register.user')}}" method="post" >
                             @csrf
+                            @isset($ref)
+                                <input type="hidden" name="ref" value="{{$ref ?? ""}}">
+                            @endisset
                             <div class="inputGroup">
                                 <input type="text"  name="name" id="name" required>
                                 <label for="name" class="label-name"><span class="label-content">Full Name</span></label>
@@ -50,6 +53,9 @@
                         <h2 class="reg-header">Drivers Registration Form</h2>
                         <form class="registration-form" action="{{route('register.driver')}}" method="post" >
                             @csrf
+                            @isset($ref)
+                                <input type="hidden" name="ref" value="{{$ref ?? ""}}">
+                            @endisset
                             <div class="inputGroup">
                                 <input type="text"  name="name" id="name-2" required>
                                 <label for="name-2" class="label-name"><span class="label-content">Full Name</span></label>

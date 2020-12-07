@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('eczite-welcome' ,['title' => 'Home']);
+    return view('index' ,['title' => 'Home']);
 });
 //Auth::routes();
 Route::get('/test', function () {
