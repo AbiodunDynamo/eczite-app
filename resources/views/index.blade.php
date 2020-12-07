@@ -13,8 +13,12 @@
         Eczite
     </div>
     <div class="top-nav">
-        <a class="nav-btn  " href="{{route('login')}}">login</a>
-        <a href="{{route('register')}}" class="nav-btn">sign up</a>
+        @if(!Auth::check())
+            <a class="nav-btn" href="{{route('login')}}">login</a>
+            <a href="{{route('register')}}" class="nav-btn">Register</a>
+        @else
+            <a href="{{route('dashboard')}}" class="nav-btn">Dashboard</a>
+        @endif
     </div>
 </header>
 <section class="content-1">
@@ -27,8 +31,12 @@
     </div>
     <div class="content-signup">
         <div class="t">
-            <a class="body-btn" href="{{route('login')}}">login</a>
-            <a href="{{route('register')}}" class="body-btn">sign up</a>
+            @if(!Auth::check())
+                <a class="body-btn" href="{{route('login')}}">login</a>
+                <a href="{{route('register')}}" class="body-btn">Register</a>
+            @else
+                <a href="{{route('dashboard')}}" class="body-btn">Dashboard</a>
+            @endif
         </div>
     </div>
 </section>

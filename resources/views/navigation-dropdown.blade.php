@@ -5,7 +5,7 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
+                    <a href="{{ url('/') }}">
                             <img src="{{asset('eczite/logo.svg' )}}" class="block h-9 w-auto rounded rounded-full" alt="logo"/>
                     </a>
                 </div>
